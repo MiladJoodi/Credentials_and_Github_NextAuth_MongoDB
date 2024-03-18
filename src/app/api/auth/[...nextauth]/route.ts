@@ -35,8 +35,8 @@ export const authOptions: any = {
       }
     }),
     GithubProvider({
-      clientId: process.env.GITHUB_ID ?? "",
-      clientSecret: process.env.GITHUB_SECRET ?? "",
+      clientId: process.env.NEXT_PUBLIC_GITHUB_ID ?? "",
+      clientSecret: process.env.NEXT_PUBLIC_GITHUB_SECRET ?? "",
     }),
     // ...add more providers here
   ],
